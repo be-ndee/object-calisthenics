@@ -13,3 +13,8 @@ This is a small learning project for object calisthenics.
 7. Keep all entities small
 8. No classes with more than two instance variables
 9. No getters/setters/properties
+
+## Patterns
+
+- DRY!: Don't repeat yourself!
+- Tell, don't ask!
