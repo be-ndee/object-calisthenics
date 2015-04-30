@@ -1,16 +1,19 @@
 class Person:
-    def __init__(self, name, birthdate):
+    def __init__(self, name, birth_date):
         self.name = name
-        self.birthdate = birthdate
+        self.birth_date = birth_date
 
 
-class Birthdate:
-    def __init__(self, year, day):
+class BirthDate:
+    def __init__(self, year, date):
         self.year = year
-        self.day = day
+        self.date = date
 
 
-class Day:
+class Date:
     def __init__(self, day, month):
         self.day = day
         self.month = month
+
+    def write_into(self, list):
+        list.append(self)
